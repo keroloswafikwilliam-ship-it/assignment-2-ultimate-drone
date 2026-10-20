@@ -1,0 +1,743 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+.header {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+
+}
+
+body {
+    margin: 0px;
+
+
+}
+
+
+
+
+.child {
+
+    display: flex;
+}
+
+.child img {
+    background-color: dodgerblue;
+    width: 2%;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    margin-right: 60px;
+}
+
+#home {
+    display: flex;
+
+}
+
+#home img {
+
+    width: 40%;
+    border-radius: 15px;
+    margin: 60px;
+    border: 20px solid;
+    color: aliceblue;
+
+}
+
+#home h1 {
+
+    background-color: dodgerblue;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 60px;
+    margin-left: 10px;
+
+}
+
+.word1 {
+    display: flex;
+
+
+}
+
+.word2 {
+    font-size: 30px;
+    padding-right: 10px;
+
+}
+
+.word3 {
+    font-size: 25px;
+
+}
+
+.word4 {
+    font-size: 35px;
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+
+    .saved {
+        background-color: brown;
+        border-radius: 20px;
+        padding-inline: 5px;
+        color: red;
+        font-size: 25px;
+        padding: 1%;
+    }
+
+}
+
+.word5 {
+
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.cart {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 50px;
+    font-size: 30px;
+    display: inline-block;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+.cart:hover {
+
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.fav {
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    font-size: 30px;
+    display: inline-block;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 35px;
+    margin-left: 40px;
+    border: 2px solid gray;
+}
+
+.fav:hover {
+
+    transform: scale(1.1);
+    transition: all 0.3s;
+
+}
+
+#Specifications {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    align-items: center;
+}
+
+.one {
+    color: black;
+    margin-right: 10px;
+}
+
+.two {
+
+    color: dodgerblue;
+}
+
+.zero {
+    display: flex;
+}
+
+.cards {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.card1 img {
+    width: 10%;
+    border-radius: 15px;
+    background-color: lightgray;
+    padding: 10px;
+
+
+}
+
+.card2 img {
+    width: 10%;
+    border-radius: 15px;
+    background-color: lightgray;
+    padding: 10px;
+
+
+}
+
+.card3 img {
+    width: 10%;
+    border-radius: 15px;
+    background-color: lightgray;
+    padding: 10px;
+
+}
+
+.card1 {
+    background-color: azure;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.card2 {
+    background-color: azure;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.card3 {
+    background-color: azure;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.card1 h1 {
+    color: dodgerblue;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.card1 h3 {
+
+    color: dodgerblue;
+    font-size: 32px;
+}
+
+.card2 h1 {
+    color: dodgerblue;
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+
+.card2 h3 {
+    color: dodgerblue;
+    font-size: 32px;
+
+}
+
+.card3 h1 {
+    color: dodgerblue;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.card3 h3 {
+    color: dodgerblue;
+    font-size: 32px;
+
+}
+
+.card1:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.card2:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+
+}
+
+.card3:hover {
+
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.cards2 {
+
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+    justify-content: center;
+
+
+
+}
+
+.card4 img {
+    width: 10%;
+    border-radius: 15px;
+    background-color: lightgray;
+    padding: 10px;
+
+
+}
+
+.card5 img {
+    width: 10%;
+    border-radius: 15px;
+    background-color: lightgray;
+    padding: 10px;
+
+}
+
+.card6 img {
+    width: 10%;
+    border-radius: 15px;
+    background-color: lightgray;
+    padding: 10px;
+
+
+}
+
+.card4 {
+    background-color: azure;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.card5 {
+    background-color: azure;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.card6 {
+    background-color: azure;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.card4 h1 {
+    color: dodgerblue;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.card4 h3 {
+
+    color: dodgerblue;
+    font-size: 32px;
+}
+
+.card5 h1 {
+    color: dodgerblue;
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+
+.card5 h3 {
+
+    color: dodgerblue;
+    font-size: 32px;
+}
+
+.card6 h1 {
+    color: dodgerblue;
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+
+.card6 h3 {
+
+    color: dodgerblue;
+    font-size: 32px;
+}
+
+.card4:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.card5:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.card6:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.explor {
+    background-color: dodgerblue;
+    border-radius: 25px;
+    padding: 30px;
+    margin: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.explortext h1 {
+
+    color: lightgray;
+    font-size: 20px;
+}
+
+.explortext h2 {
+    color: white;
+    font-size: 32px;
+
+}
+
+.explortext b {
+
+    color: lightgray;
+    font-size: 20px;
+}
+
+.explorbutton {
+    background-color: white;
+    border-radius: 50px;
+    color: dodgerblue;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#Relatedproducts {
+
+    background-color: lightgray;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    width: 100%;
+    gap: 25px;
+
+}
+
+.pro {
+
+    background-color: white;
+    width: 25%;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+
+.pro img {
+    width: 70%;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.travel {
+    background-color: white;
+    width: 25%;
+    border-radius: 20px;
+    margin-top: 30px;
+
+}
+
+.travel img {
+    width: 70%;
+    padding: 30px;
+    border-radius: 50px;
+
+}
+
+.battery {
+    background-color: white;
+    width: 25%;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.battery img {
+    width: 70%;
+    padding: 30px;
+    border-radius: 50px;
+
+}
+
+.Safety {
+    background-color: white;
+    width: 25%;
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-top: 30px;
+
+}
+
+.Safety img {
+    width: 70%;
+    padding: 30px;
+    border-radius: 50px;
+
+}
+
+.Safety img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.battery img:hover {
+
+    transform: scale(1.1);
+    transition: all 0.3s;
+
+}
+
+.travel img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.pro img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.pro h1 {
+    text-align: left;
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+.pro h3 {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+.travel h1 {
+    text-align: left;
+    font-size: 25px;
+    padding-left: 15px;
+
+}
+
+.travel h3 {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+.battery h1 {
+    text-align: left;
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+.battery h3 {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 25px;
+
+}
+
+.Safety h1 {
+    text-align: left;
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+.Safety h3 {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+.pro button {
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 15px;
+
+}
+
+.travel button {
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 15px;
+}
+
+.battery button {
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 15px;
+
+}
+
+.Safety button {
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 15px;
+}
+
+.baragraph {
+    text-align: left;
+}
+
+.viewall button {
+    color: dodgerblue;
+    background-color: white;
+    border-radius: 35px;
+    border: none;
+    padding: 10px 15px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+    overflow: auto;
+}
+
+.footer-container {
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+
+.dji {
+    width: 22.5%;
+    overflow: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.dji-photo {
+    width: 25px;
+    margin-top: 30px;
+    background-color: #7f22fe;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.dji-text1 {
+    color: white;
+}
+
+.dji-text2 {
+    color: white;
+    font-size: 15px;
+
+}
+
+.facebook {
+    width: 25px;
+    background-color: #1e2939;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.twitter {
+    width: 25px;
+    background-color: #1e2939;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.instagram {
+    width: 25px;
+    background-color: #1e2939;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.youtupe {
+    width: 25px;
+    background-color: #1e2939;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.footer-products {
+    color: #99a1a2;
+    float: left;
+    width: 22.5%;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin: auto;
+}
+
+.support {
+    color: #99a1a2;
+    float: left;
+    width: 22.5%;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.company {
+    color: #99a1a2;
+    float: left;
+    width: 22.5%;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.copyright-text {
+    width: 45%;
+    float: left;
+    color: #99a1a2;
+    margin-left: 20px;
+    font-size: small;
+    margin-top: 20px;
+}
+
+.copyright-images {
+    width: 45%;
+    float: right;
+    margin-top: 20px;
+}
+
+.payable {
+    width: 100px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.master-card {
+    width: 50px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.visa {
+    width: 100px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20px;
+}
